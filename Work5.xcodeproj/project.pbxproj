@@ -78,26 +78,58 @@
 		FACFB6D32B6D8D11005E0FA9 /* Work5 */ = {
 			isa = PBXGroup;
 			children = (
+				FACFB7032B6D97EA005E0FA9 /* Service */,
+				FACFB7022B6D97B0005E0FA9 /* Controller */,
+				FACFB7012B6D9780005E0FA9 /* Model */,
+				FACFB7002B6D9750005E0FA9 /* Cell */,
 				FACFB6D42B6D8D11005E0FA9 /* AppDelegate.swift */,
 				FACFB6D62B6D8D11005E0FA9 /* SceneDelegate.swift */,
-				FACFB6D82B6D8D11005E0FA9 /* ViewController.swift */,
 				FACFB6DD2B6D8D16005E0FA9 /* Assets.xcassets */,
 				FACFB6DF2B6D8D16005E0FA9 /* LaunchScreen.storyboard */,
 				FACFB6E22B6D8D16005E0FA9 /* Info.plist */,
-				FACFB6E82B6D8E1F005E0FA9 /* FriendsViewController.swift */,
-				FACFB6EA2B6D8E86005E0FA9 /* GroupsViewController.swift */,
-				FACFB6EC2B6D8ECC005E0FA9 /* PhotosViewController.swift */,
-				FACFB6EE2B6D8F77005E0FA9 /* ProfileViewController.swift */,
+			);
+			path = Work5;
+			sourceTree = "<group>";
+		};
+		FACFB7002B6D9750005E0FA9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
 				FACFB6F02B6D8FCF005E0FA9 /* FriendCell.swift */,
 				FACFB6F22B6D900B005E0FA9 /* GroupCell.swift */,
 				FACFB6F42B6D903A005E0FA9 /* PhotoCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FACFB7012B6D9780005E0FA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				FACFB6F62B6D9085005E0FA9 /* FriendsModel.swift */,
 				FACFB6F82B6D90C5005E0FA9 /* GroupsModel.swift */,
 				FACFB6FA2B6D9102005E0FA9 /* PhotosModel.swift */,
 				FACFB6FC2B6D913D005E0FA9 /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FACFB7022B6D97B0005E0FA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FACFB6D82B6D8D11005E0FA9 /* ViewController.swift */,
+				FACFB6E82B6D8E1F005E0FA9 /* FriendsViewController.swift */,
+				FACFB6EA2B6D8E86005E0FA9 /* GroupsViewController.swift */,
+				FACFB6EC2B6D8ECC005E0FA9 /* PhotosViewController.swift */,
+				FACFB6EE2B6D8F77005E0FA9 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FACFB7032B6D97EA005E0FA9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
 				FACFB6FE2B6D9222005E0FA9 /* NetworkService.swift */,
 			);
-			path = Work5;
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
