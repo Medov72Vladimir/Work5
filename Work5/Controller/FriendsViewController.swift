@@ -51,7 +51,7 @@ private extension FriendsViewController {
     @objc func tap() {
         let animation = CATransition()
         animation.timingFunction = CAMediaTimingFunction(name: .easeOut)
-        animation.type = .moveIn
+        animation.type = .fade
         animation.duration = 1
         navigationController?.view.layer.add(animation, forKey: nil)
         navigationController?.pushViewController(ProfileViewController(), animated: false)
