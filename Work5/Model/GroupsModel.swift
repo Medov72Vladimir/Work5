@@ -15,7 +15,7 @@ struct Groups: Decodable {
 
 struct Group: Decodable {
     let name: String
-    let description: String
+    let description: String?
     let photo: String
     
     enum CodingKeys: String, CodingKey {
